@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "node-sass": "^3.3.3"
+  },
+  "description": "inline images as base64",
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "main": "index.js",
+  "name": "compass-inline-image",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {},
+  "version": "0.0.1"
+}
