@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "node-sass": "^3.3.3"
+    "node-sass": "^4.6.0"
   },
   "description": "inline images as base64",
   "devDependencies": {
