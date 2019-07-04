@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "node-sass": "^4.6.0"
+    "node-sass": "^4.6.0",
+    "snyk": "^1.189.0"
   },
   "description": "inline images as base64",
   "devDependencies": {
@@ -10,6 +11,10 @@
   "name": "compass-inline-image",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
-  "scripts": {},
-  "version": "0.0.2"
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "version": "0.0.2",
+  "snyk": true
 }
